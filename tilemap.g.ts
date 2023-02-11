@@ -64,9 +64,9 @@ namespace myTiles {
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 . . . . . . . . . . . . . 2 2 2 
-. . 2 2 2 2 2 2 2 2 2 2 . . . . 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 . . 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 . . 
+. . . . . . . . . . . . . . . . 
+2 2 2 2 2 2 2 2 2 2 2 . . . . . 
+2 2 2 2 2 2 2 2 2 2 2 2 2 . . . 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tileDarkGrass3,myTiles.tile2,myTiles.tile4], TileScale.Sixteen);
