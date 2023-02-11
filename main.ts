@@ -2,12 +2,15 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, l
     game.over(true)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
-    info.changeScoreBy(6567789)
+    chest_score()
     tiles.setTileAt(location, sprites.castle.tileGrass1)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`lava`, function (sprite, location) {
     game.over(false)
 })
+function chest_score () {
+    info.changeScoreBy(7380759840)
+}
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles4, function (sprite, location) {
     info.changeScoreBy(1)
     tiles.setTileAt(location, sprites.castle.tileGrass1)
