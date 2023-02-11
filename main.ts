@@ -2,7 +2,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, l
     game.over(true)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
-    info.changeScoreBy(8.47354378395386e+40)
+    info.changeScoreBy(6567789)
     tiles.setTileAt(location, sprites.castle.tileGrass1)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`lava`, function (sprite, location) {
