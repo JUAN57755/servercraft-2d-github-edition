@@ -19,12 +19,10 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles8, function (s
     info.changeScoreBy(1)
     tiles.setTileAt(location, sprites.castle.tileGrass1)
 })
-controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
-    music.play(music.createSoundEffect(WaveShape.Square, 4020, 1044, 255, 255, 500, SoundExpressionEffect.Vibrato, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
-})
 scene.onOverlapTile(SpriteKind.Player, sprites.swamp.swampTile9, function (sprite, location) {
     tiles.placeOnRandomTile(mySprite, assets.tile`myTile`)
     tiles.setCurrentTilemap(tilemap`level`)
+    music.play(music.createSoundEffect(WaveShape.Square, 4020, 1044, 255, 255, 500, SoundExpressionEffect.Vibrato, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
 })
 let mySprite: Sprite = null
 game.showLongText("Welcome to Servercraft Move up down left right to move player", DialogLayout.Full)
