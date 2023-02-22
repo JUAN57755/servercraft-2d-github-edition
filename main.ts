@@ -9,7 +9,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`lava`, function (sprite, loca
     game.over(false)
 })
 function chest_score () {
-    info.changeScoreBy(7380759840)
+    info.changeScoreBy(341)
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles4, function (sprite, location) {
     info.changeScoreBy(1)
