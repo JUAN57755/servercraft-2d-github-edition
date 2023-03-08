@@ -61,3 +61,4 @@ jobs:
           asset_path: ./built/arcade.uf2
           asset_name: arcade.uf2
           asset_content_type: application/octet-stream
+          RESET
